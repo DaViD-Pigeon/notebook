@@ -10,4 +10,24 @@
          <lastmod>2024-07-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
+    <url>
+         <loc>https://david-pigeon.github.io/notebook/Paper/</loc>
+         <lastmod>2024-07-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://david-pigeon.github.io/notebook/Paper/diffsinger/</loc>
+         <lastmod>2024-07-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://david-pigeon.github.io/notebook/Paper/fastspeech/</loc>
+         <lastmod>2024-07-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://david-pigeon.github.io/notebook/Paper/transformer/</loc>
+         <lastmod>2024-07-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
 </urlset>
