@@ -45,7 +45,7 @@ glightbox: False
 <div class="flink-list-item">
     <a href="https://github.com/Unc1eW4ng" title="UncleWang" target="_blank">
         <div class="flink-item-icon">
-            <img src="https://github.com/DaViD-Pigeon/notebook/blob/master/images/unclewang.jpg" alt="UncleWang">
+            <img src="https://david-pigeon.github.io/notebook/images/unclewang.jpg" alt="UncleWang">
         </div>
         <div class="flink-item-name">UncleWang</div>
         <div class="flink-item-desc">磊哥带带我┭┮﹏┭┮</div>
@@ -66,11 +66,12 @@ glightbox: False
 <div class="flink-list-item">
     <a href="https://zhoutimemachine.github.io/note/" title="Zhou TimeMachine" target="_blank">
         <div class="flink-item-icon">
-            <img src="https://github.com/DaViD-Pigeon/notebook/blob/master/images/zjj.jpg" alt="zjj">
+            <img src="https://david-pigeon.github.io/notebook/images/zjj.png" alt="zjj">
         </div>
         <div class="flink-item-name">卷子哥</div>
         <div class="flink-item-desc">本科阶段引路人😊</div>
     </a>
 </div>
+
 
 </div>

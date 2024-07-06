@@ -10,6 +10,13 @@ theme:
   logo: aniya.ico
   favicon: aniya.ico
 
+  features:
+    - content.code.annotate
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.indexes
+    - navigation.top
+
   font:
     text: LXGW WenKai Screen
     code: JetBrains Mono
@@ -82,3 +89,12 @@ nav:
   - Home:
     - index.md
     - 友链: link.md
+  - Paper: 
+    - Paper/index.md
+    - TTS:
+      - Paper/fastspeech.md
+    - SVS:
+      - Paper/diffsinger.md
+
+    - Transformer:
+      - Paper/transformer.md

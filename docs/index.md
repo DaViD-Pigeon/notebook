@@ -1,3 +1,9 @@
+---
+counter: False   
+---
+
+# Welcome to DaViD-Pigeon's Notebook!
+
 !!! success "欢迎来到 DaViD-Pigeon 的笔记本～"
 
     <div align="center" style="font-size:32px;font-family:'LXGW WenKai Screen';">
