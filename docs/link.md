@@ -63,14 +63,13 @@ glightbox: False
 </div>
 
 
-
 <div class="flink-list-item">
     <a href="https://zhoutimemachine.github.io/note/" title="Zhou TimeMachine" target="_blank">
         <div class="flink-item-icon">
             <img src="https://github.com/DaViD-Pigeon/notebook/blob/master/images/zjj.jpg" alt="zjj">
         </div>
         <div class="flink-item-name">卷子哥</div>
-        <div class="flink-item-desc"></div>
+        <div class="flink-item-desc">本科阶段引路人😊</div>
     </a>
 </div>
 
