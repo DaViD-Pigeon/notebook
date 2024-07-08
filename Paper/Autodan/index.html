@@ -10,20 +10,18 @@
       
       
       
-        <link rel="canonical" href="https://david-pigeon.github.io/notebook/Paper/fastspeech/">
+        <link rel="canonical" href="https://david-pigeon.github.io/notebook/Paper/Autodan/">
       
       
-        <link rel="prev" href="../index_tts/">
+        <link rel="prev" href="../GCG/">
       
-      
-        <link rel="next" href="../index_svs/">
       
       <link rel="icon" href="../../aniya.ico">
       <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.4">
     
     
       
-        <title>Fastspeech - David Pan's Notebook</title>
+        <title>AutoDAN - David Pan's Notebook</title>
       
     
     
@@ -84,6 +82,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#autodanllm" class="md-skip">
+          跳转至
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -112,7 +115,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Fastspeech
+              AutoDAN
             
           </span>
         </div>
@@ -400,16 +403,14 @@
               
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
       
       
-      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_2_2" type="checkbox" id="__nav_2_2" checked>
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_2_2" type="checkbox" id="__nav_2_2" >
       
       
         
@@ -419,7 +420,7 @@
         
       
       
-        <label class="md-nav__link" for="__nav_2_2" tabindex="0" aria-expanded="true">
+        <label class="md-nav__link" for="__nav_2_2" tabindex="0" aria-expanded="false">
           TTS
           <span class="md-nav__icon md-icon"></span>
         </label>
@@ -449,19 +450,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../fastspeech/" class="md-nav__link">
         Fastspeech
       </a>
-      
     </li>
   
 
@@ -614,14 +607,16 @@
               
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
       
       
-      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_2_5" type="checkbox" id="__nav_2_5" >
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_2_5" type="checkbox" id="__nav_2_5" checked>
       
       
         
@@ -633,7 +628,7 @@
         
       
       
-        <label class="md-nav__link" for="__nav_2_5" tabindex="0" aria-expanded="false">
+        <label class="md-nav__link" for="__nav_2_5" tabindex="0" aria-expanded="true">
           Jailbreak For LLM
           <span class="md-nav__icon md-icon"></span>
         </label>
@@ -677,11 +672,52 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../Autodan/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          AutoDAN
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         AutoDAN
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#abstract" class="md-nav__link">
+    Abstract
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -717,6 +753,23 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#abstract" class="md-nav__link">
+    Abstract
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -735,7 +788,30 @@
 
 
 
+<h1 id="autodanllm">AutoDAN：基于遗传算法的LLM越狱攻击<a class="headerlink" href="#autodanllm" title="Permanent link">&para;</a></h1>
+<div class="badges">
+<span class="badge not-implement-badge">未完成</span>
+</div>
 
+<div class="admonition brief">
+<p class="admonition-title">Brief</p>
+<p><img alt="" src="https://david-pigeon.github.io/notebook/images/Paper/Jail/Autodan_0.png" /></p>
+<ul>
+<li>Paper: <a href="https://arxiv.org/abs/2310.04451">AutoDAN: Generating Stealthy Jailbreak Prompts on Aligned Large Language Models</a></li>
+<li>Code: <a href="https://github.com/SheltonLiu-N/AutoDAN">AutoDAN</a></li>
+<li>该工作已被ICLR 2024接收</li>
+<li>GCG的优化：生成可读性较强的对抗性攻击后缀</li>
+<li>本文中的图片均来自论文。</li>
+</ul>
+</div>
+<h2 id="abstract">Abstract<a class="headerlink" href="#abstract" title="Permanent link">&para;</a></h2>
+<p>文件介绍了一种名为 AutoDAN 的新型越狱攻击,它可以自动生成隐蔽的提示来绕过对齐的大型语言模型(LLMs)的安全功能。关键要点如下:</p>
+<ul>
+<li>介绍了 AutoDAN,这是一种针对对齐 LLMs 的新型越狱攻击,可以自动生成隐蔽的提示。</li>
+<li>提出了一种针对结构化离散数据(如提示文本)的分层遗传算法,以解决从手工制作的提示初始化的细粒度空间进行搜索的挑战。</li>
+<li>证明了 AutoDAN 在攻击强度、可迁移性和针对 LLMs 的普遍性方面优于基线方法。</li>
+<li>表明 AutoDAN 可以有效绕过基于困惑度的防御,而之前的基于token级别的越狱攻击做不到。</li>
+</ul>
 
 
 
