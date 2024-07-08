@@ -71,6 +71,7 @@ extra_css:
   - https://gcore.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css
   - https://gcore.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css
   - stylesheets/flink.css
+  - stylesheets/custom.css
 
 extra_javascript:
   - js/baidu-tongji.js
@@ -92,9 +93,17 @@ nav:
   - Paper: 
     - Paper/index.md
     - TTS:
-      - Paper/fastspeech.md
+      - Intro: Paper/index_tts.md
+      - Fastspeech: Paper/fastspeech.md
     - SVS:
-      - Paper/diffsinger.md
+      - Intro: Paper/index_svs.md
+      - DiffSinger: Paper/diffsinger.md
 
     - Transformer:
+      - Intro: Paper/index_tf.md
       - Paper/transformer.md
+
+    - Jailbreak For LLM:
+      - Intro: Paper/index_jail.md
+      - GCG: Paper/GCG.md
+      - AutoDAN: Paper/Autodan.md
