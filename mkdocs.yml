@@ -94,16 +94,26 @@ nav:
     - Paper/index.md
     - TTS:
       - Intro: Paper/index_tts.md
-      - Fastspeech: Paper/fastspeech.md
+      - Fastspeech: Paper/TTS/fastspeech.md
     - SVS:
       - Intro: Paper/index_svs.md
-      - DiffSinger: Paper/diffsinger.md
+      - DiffSinger: Paper/SVS/diffsinger.md
+    
+    - Music:
+      - Intro: Paper/index_music.md
 
-    - Transformer:
-      - Intro: Paper/index_tf.md
-      - Paper/transformer.md
+    - Classic Paper:
+      - Intro: Paper/index_aigc.md
+      - DDPM: Paper/AIGC/ddpm.md
+      - GAN: Paper/AIGC/GAN.md
+      - VAE: Paper/AIGC/VAE.md
+      - Transformer: Paper/AIGC/transformer.md
+
+    - Text Generation:
+      - Diffuion-LM: Paper/Text_Gen/Diffusion_LM.md
+      - DiffuSeq: Paper/Text_Gen/DiffuSeq.md
 
     - Jailbreak For LLM:
       - Intro: Paper/index_jail.md
-      - GCG: Paper/GCG.md
-      - AutoDAN: Paper/Autodan.md
+      - GCG: Paper/Jail_Break/GCG.md
+      - AutoDAN: Paper/Jail_Break/Autodan.md
